@@ -156,8 +156,24 @@ export default function Home() {
     </div>
 
     <p className="mt-8 text-gray-400">
-      Also available for surrounding Pennsylvania regions and contract route support.
-    </p>
+  Also available for surrounding Pennsylvania regions and contract route support.
+</p>
+
+<div className="mt-10 flex flex-col justify-center gap-4 sm:flex-row">
+  <Link
+    href="/reading-pa-courier-service"
+    className="rounded-full border border-[#d4af37] px-6 py-3 font-semibold text-[#d4af37] transition hover:bg-[#d4af37] hover:text-black"
+  >
+    Reading Courier Service
+  </Link>
+
+  <Link
+    href="/lancaster-pa-courier-service"
+    className="rounded-full border border-[#d4af37] px-6 py-3 font-semibold text-[#d4af37] transition hover:bg-[#d4af37] hover:text-black"
+  >
+    Lancaster Courier Service
+  </Link>
+</div>
   </div>
 </section>
 </main>
