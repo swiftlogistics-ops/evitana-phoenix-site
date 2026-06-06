@@ -11,6 +11,7 @@ export default function Navbar() {
     { href: "/", label: "Home" },
     { href: "/services", label: "Services" },
     { href: "/medical-courier", label: "Medical Courier" },
+    { href: "/medical-courier-pa", label: "Medical Courier PA" },
     { href: "/about", label: "About" },
     { href: "/contact", label: "Contact" },
   ];
