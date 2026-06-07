@@ -31,10 +31,15 @@ export default function ContactPage() {
           </div>
 
           <form
-            action="https://formspree.io/f/xpqewald"
-            method="POST"
-            className="rounded-2xl border border-[#d4af37]/30 bg-[#111] p-8"
-          >
+  action="https://formspree.io/f/xpqewald"
+  method="POST"
+  className="rounded-2xl border border-[#d4af37]/30 bg-[#111] p-8"
+>
+  <input
+  type="hidden"
+  name="_redirect"
+  value="https://www.evitanaphoenixhldgs.com/thank-you"
+/>
             <div className="space-y-4">
               <input
                 name="name"
